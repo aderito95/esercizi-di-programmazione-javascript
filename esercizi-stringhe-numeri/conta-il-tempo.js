@@ -12,3 +12,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+const secondi = 12560;
+
+var ore = Math.floor(secondi/3600);
+secondi = secondi - ore*3600;
+
+var minuti = Math.floor(secondi/60);
+secondi = secondi - minuti*60;
+
+console.log(ore + ' ore,' + minuti + ' minuti,' + secondi ' secondi.');
