@@ -20,7 +20,7 @@
 
 var cats = 44; var catsPerRow = 6;
 
-var rows = Math.round(cats/catsPerRow);
+var rows = Math.ceil(cats/catsPerRow);
 var remainingCats = 44 % 6;
 
 console.log('Numero di file: ' + rows);
