@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44; var catsPerRow = 6;
+
+var rows = Math.round(cats/catsPerRow);
+var remainingCats = 44 % 6;
+
+console.log('Numero di file: ' + rows);
+console.log('Gatti mancanti ' + remainingCats);
